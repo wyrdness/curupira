@@ -1,0 +1,369 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/curupira",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "curupira",
+    "name": "Curupira",
+    "aliases": [],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Forest Guardian",
+    "tags": [
+      "brazilian",
+      "tupi",
+      "forest-guardian",
+      "backwards-feet",
+      "environmental-protector",
+      "red-hair",
+      "indigenous",
+      "trickster"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Brazilian forest guardian spirit with backwards feet and bright red hair. Protects forests and animals by punishing hunters and poachers while rewarding those who respect nature. Creates illusions and leads disrespectful hunters astray.",
+      "full": "The Curupira is a powerful forest guardian spirit from Brazilian indigenous Tupi folklore, depicted as a child-like figure with bright red hair covering its entire body and distinctive backwards feet that face the opposite direction from its travel. This characteristic makes the Curupira impossible to track, as its footprints lead pursuers in the wrong direction. The Curupira protects the forest and its animals, punishing hunters who kill excessively or show disrespect to nature, while helping and rewarding those who hunt respectfully and honor the forest. Its methods include creating illusions, whistling to confuse hunters, and leading them in circles until they become hopelessly lost. The Curupira rides a peccary (wild pig) and commands forest animals. It drives disrespectful hunters mad or leads them into danger, but guides respectful hunters to safety and good hunting. The Curupira represents indigenous wisdom about environmental protection and the importance of living in balance with nature. It has become a symbol of Brazil's environmental movement and indigenous cultural heritage."
+    },
+    "etymology": {
+      "origin": "Tupi language: 'kuru' (boy) + 'pira' (body)",
+      "meaning": "Boy's body" or "demon's body" (interpretations vary)",
+      "first_use": "Pre-colonial Tupi indigenous traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Nature guardian",
+      "subtype": "Forest protector",
+      "variant": "Brazilian/Tupi"
+    },
+    "related_phenomena": [
+      {
+        "id": "ciguapa",
+        "name": "Ciguapa",
+        "relationship": "similar",
+        "description": "Dominican spirit also with backwards feet"
+      },
+      {
+        "id": "leshy",
+        "name": "Leshy",
+        "relationship": "similar",
+        "description": "Slavic forest guardian spirit"
+      },
+      {
+        "id": "saci",
+        "name": "Saci",
+        "relationship": "cultural_relation",
+        "description": "Another Brazilian folklore figure, trickster spirit"
+      },
+      {
+        "id": "chaneque",
+        "name": "Chaneque",
+        "relationship": "similar",
+        "description": "Mexican forest guardian spirits"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.0,
+        "max": 1.3,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "bright red hair covering entire body",
+        "red skin"
+      ],
+      "features": [
+        {
+          "feature": "Backwards feet",
+          "description": "Feet face backwards, tracks lead opposite direction",
+          "frequency": "always"
+        },
+        {
+          "feature": "Red hair",
+          "description": "Bright red hair covering entire body",
+          "frequency": "always"
+        },
+        {
+          "feature": "Child-like appearance",
+          "description": "Small, child-sized figure",
+          "frequency": "always"
+        },
+        {
+          "feature": "Red coloration",
+          "description": "Entirely red appearance (hair and/or skin)",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Small, child-like humanoid completely covered in bright red hair with backwards-facing feet"
+    },
+    "abilities": [
+      {
+        "ability": "Impossible tracking",
+        "description": "Backwards feet make following impossible",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Illusion creation",
+        "description": "Creates confusing illusions in forest",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Whistling",
+        "description": "Confuses hunters with directional whistles",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Leading astray",
+        "description": "Causes hunters to walk in circles and become lost",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Animal command",
+        "description": "Controls and protects forest animals",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Peccary riding",
+        "description": "Rides wild pigs (peccaries)",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Madness inducement",
+        "description": "Drives disrespectful hunters insane",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any time",
+      "disposition": "protective (nature), variable (humans)",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "tropical forests",
+        "rainforest",
+        "jungle",
+        "deep forest"
+      ],
+      "diet": "Unknown",
+      "patterns": [
+        "Protects forest animals from overhunting",
+        "Punishes poachers and disrespectful hunters",
+        "Rewards respectful hunters with safety and success",
+        "Creates confusion and leads hunters in circles",
+        "Commands forest animals",
+        "Leaves backwards footprints"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Brazilian forests, primarily Amazon rainforest and Atlantic Forest regions. Anywhere Tupi cultural influence exists.",
+      "continents": ["South America"],
+      "countries": ["Brazil", "Paraguay", "Northern Argentina"],
+      "regions": [
+        "Amazon rainforest",
+        "Atlantic Forest",
+        "Brazilian interior forests",
+        "Areas of Tupi cultural influence"
+      ]
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Tupi indigenous oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Traditional to present",
+          "description": "Active in Brazilian folklore from pre-colonial times to present"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal patterns"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Indigenous Tupi mythology, representing environmental stewardship and respect for nature",
+      "earliest_accounts": "Pre-colonial oral traditions from Tupi peoples",
+      "folklore_connections": "Connected to global forest guardian and nature protector traditions"
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Tupi oral traditions",
+        "significance": "Curupira established in indigenous cosmology",
+        "source": "Tupi oral tradition"
+      },
+      {
+        "date": "Colonial era",
+        "event": "European documentation",
+        "significance": "First written accounts by colonial observers",
+        "source": "Colonial records"
+      },
+      {
+        "date": "Modern era",
+        "event": "Environmental symbol",
+        "significance": "Curupira becomes symbol of Brazilian environmental movement",
+        "source": "Contemporary Brazilian culture"
+      }
+    ],
+    "modern_era": "The Curupira has become an icon of Brazilian environmental protection and indigenous cultural heritage. Used in environmental education campaigns, the figure represents the importance of forest conservation and sustainable relationships with nature. Recognized as a national cultural symbol of Brazil's indigenous wisdom regarding environmental stewardship."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Traditional",
+        "latest": "Traditional"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Forest guardian spirit",
+        "description": "Genuine protective spirit entity from Tupi cosmology",
+        "proponents": ["Traditional indigenous knowledge holders"],
+        "evidence_cited": ["Consistent oral traditions", "Environmental wisdom"]
+      }
+    ],
+    "scientific": [],
+    "skeptical": [
+      {
+        "name": "Environmental teaching story",
+        "description": "Folklore created to teach sustainable hunting and forest respect",
+        "proponents": ["Anthropologists", "Environmental educators"],
+        "evidence_cited": ["Conservation function", "Indigenous environmental knowledge systems"]
+      },
+      {
+        "name": "Hunter safety narrative",
+        "description": "Story warning about getting lost in deep forests",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Practical dangers of forest disorientation", "Universal lost-in-forest themes"]
+      },
+      {
+        "name": "Cultural resistance symbol",
+        "description": "Represents indigenous resistance to colonial exploitation of land",
+        "proponents": ["Cultural historians"],
+        "evidence_cited": ["Protection of indigenous resources", "Anti-exploitation themes"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Tupi indigenous storytelling",
+        "Brazilian folklore",
+        "Environmental teaching stories"
+      ],
+      "stories": [
+        "Hunter who kills too many animals is driven mad by Curupira",
+        "Respectful hunter is guided to safety by Curupira",
+        "Following Curupira's backwards footprints leads to being hopelessly lost",
+        "Whistling in forest may be Curupira leading you astray"
+      ],
+      "beliefs": "The Curupira represents the forest's intelligence and protective power. Respecting nature brings safety and success; exploitation brings punishment and destruction."
+    },
+    "indigenous": {
+      "cultures": [
+        "Tupi",
+        "Guarani",
+        "Various Brazilian indigenous groups"
+      ],
+      "significance": "Central to indigenous environmental ethics; teaches sustainable hunting, respect for nature, and consequences of exploitation",
+      "sensitivity_note": "The Curupira is sacred indigenous knowledge about environmental stewardship. Should be understood as part of indigenous wisdom systems, not merely entertainment.",
+      "respect_guidelines": "Acknowledge Tupi/indigenous cultural ownership. Recognize environmental teaching function. Do not appropriate or trivialize."
+    },
+    "popular_culture": {
+      "literature": [
+        "Brazilian children's literature",
+        "Folklore collections",
+        "Environmental education materials"
+      ],
+      "film_tv": [
+        "Brazilian children's programs",
+        "Environmental documentaries"
+      ],
+      "games": [],
+      "other": [
+        "Environmental campaign mascot",
+        "Symbol of forest conservation",
+        "Brazilian cultural icon",
+        "Indigenous heritage symbol"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "Study of indigenous environmental knowledge systems; use of folklore in environmental education; Brazilian cultural preservation"
+  },
+
+  "sources": [
+    {
+      "id": "tupi-folklore",
+      "type": "cultural tradition",
+      "title": "Tupi Indigenous Oral Traditions",
+      "authors": ["Tupi knowledge holders"],
+      "publication": "Traditional oral transmission",
+      "date": "Pre-colonial to present"
+    },
+    {
+      "id": "brazilian-folklore",
+      "type": "folklore studies",
+      "title": "Brazilian Folklore and Indigenous Traditions",
+      "authors": ["Brazilian folklorists and anthropologists"],
+      "publication": "Various academic sources",
+      "date": "20th-21st century"
+    }
+  ]
+}
